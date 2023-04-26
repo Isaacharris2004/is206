@@ -1,0 +1,53 @@
+a{
+    text-decoration: none;
+    font-size: 20px;
+}
+
+a:visited{
+    color: white;
+}
+
+a:hover{
+    color: cornflowerblue;
+}
+
+body{
+    background-color: rgb(210, 203, 203);
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+li{
+    font-style: italic;
+    color: royalblue;
+    text-align: left;
+}
+
+.header{
+    top: 0px;
+    height: 30px;
+    left: 0px;
+    right: 0px;
+    position: fixed;
+    background-color: black;
+    color: white;
+}
+
+.body{
+    top: 30px;
+    bottom: 20px;
+    left: 0px;
+    right: 0px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.footer{
+    bottom: 0px;
+    height: 20px;
+    left: 0px;
+    right: 0px;
+    background-color: black;
+    color: white;
+    position: fixed;
+}
